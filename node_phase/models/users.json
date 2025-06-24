@@ -1,0 +1,26 @@
+[
+  {
+    "username": "sago admin",
+    "password": "$2b$10$oNso7aZhL.rb02J3FTMkeuyOMX9CXbqdpRnvxydaGZesKJY88DZfa",
+    "roles": {
+      "Admin": 5150,
+      "Editor": 1984,
+      "User": 2001
+    }
+  },
+  {
+    "username": "sago editor",
+    "password": "$2b$10$DUI5xesrlqMwu.K60D1B/.8MmAkTWbh5rAsRn1HA56Z4b5HOwmgk2",
+    "roles": {
+      "Editor": 1984,
+      "User": 2001
+    }
+  },
+  {
+    "username": "sago user",
+    "password": "$2b$10$E3e..qfHKP337k.j9e.HA.LF0FDDadq.PWpAUQFKK6hwzyYTcpZia",
+    "roles": {
+      "User": 2001
+    }
+  }
+]
