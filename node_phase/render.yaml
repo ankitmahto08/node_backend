@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: express-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ACCESS_TOKEN_SECRET
+        value: your_access_token_secret
+      - key: REFRESH_TOKEN_SECRET
+        value: your_refresh_token_secret
